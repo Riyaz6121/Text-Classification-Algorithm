@@ -1,0 +1,37 @@
+Testing minimum sample split with everything as default
+------------------------------------------------------------
+n_split = 1, RandomForestClassifier(min_sample_split=2) = 0.740526
+n_split = 2, RandomForestClassifier(min_sample_split=2) = 0.738421
+n_split = 3, RandomForestClassifier(min_sample_split=2) = 0.746316
+n_split = 4, RandomForestClassifier(min_sample_split=2) = 0.736842
+n_split = 5, RandomForestClassifier(min_sample_split=2) = 0.735789
+------------------------------------------------------------
+n_split = 1, RandomForestClassifier(min_sample_split=5) = 0.741579
+n_split = 2, RandomForestClassifier(min_sample_split=5) = 0.739474
+n_split = 3, RandomForestClassifier(min_sample_split=5) = 0.738947
+n_split = 4, RandomForestClassifier(min_sample_split=5) = 0.736316
+n_split = 5, RandomForestClassifier(min_sample_split=5) = 0.740000
+------------------------------------------------------------
+n_split = 1, RandomForestClassifier(min_sample_split=7) = 0.739474
+n_split = 2, RandomForestClassifier(min_sample_split=7) = 0.734737
+n_split = 3, RandomForestClassifier(min_sample_split=7) = 0.735789
+n_split = 4, RandomForestClassifier(min_sample_split=7) = 0.740000
+n_split = 5, RandomForestClassifier(min_sample_split=7) = 0.737368
+------------------------------------------------------------
+n_split = 1, RandomForestClassifier(min_sample_split=10) = 0.743684
+n_split = 2, RandomForestClassifier(min_sample_split=10) = 0.730000
+n_split = 3, RandomForestClassifier(min_sample_split=10) = 0.738947
+n_split = 4, RandomForestClassifier(min_sample_split=10) = 0.737368
+n_split = 5, RandomForestClassifier(min_sample_split=10) = 0.734737
+------------------------------------------------------------
+n_split = 1, RandomForestClassifier(min_sample_split=15) = 0.747368
+n_split = 2, RandomForestClassifier(min_sample_split=15) = 0.739474
+n_split = 3, RandomForestClassifier(min_sample_split=15) = 0.737368
+n_split = 4, RandomForestClassifier(min_sample_split=15) = 0.732105
+n_split = 5, RandomForestClassifier(min_sample_split=15) = 0.733158
+------------------------------------------------------------
+n_split = 1, RandomForestClassifier(min_sample_split=30) = 0.743684
+n_split = 2, RandomForestClassifier(min_sample_split=30) = 0.738421
+n_split = 3, RandomForestClassifier(min_sample_split=30) = 0.735263
+n_split = 4, RandomForestClassifier(min_sample_split=30) = 0.735789
+n_split = 5, RandomForestClassifier(min_sample_split=30) = 0.732105

@@ -1,0 +1,45 @@
+Everything on default, n_estimator = 100, Bootstrap = True etc
+
+n_split = 1, RandomForestClassifier(min_sample_lead=1) = 0.742105
+n_split = 2, RandomForestClassifier(min_sample_lead=1) = 0.744211
+n_split = 3, RandomForestClassifier(min_sample_lead=1) = 0.731053
+n_split = 4, RandomForestClassifier(min_sample_lead=1) = 0.738421
+n_split = 5, RandomForestClassifier(min_sample_lead=1) = 0.734211
+
+n_split = 1, RandomForestClassifier(min_sample_leaf=2) = 0.742105
+n_split = 2, RandomForestClassifier(min_sample_leaf=2) = 0.734211
+n_split = 3, RandomForestClassifier(min_sample_leaf=2) = 0.733158
+n_split = 4, RandomForestClassifier(min_sample_leaf=2) = 0.735263
+n_split = 5, RandomForestClassifier(min_sample_leaf=2) = 0.732105
+
+n_split = 1, RandomForestClassifier(min_sample_leaf=3) = 0.728947
+n_split = 2, RandomForestClassifier(min_sample_leaf=3) = 0.731053
+n_split = 3, RandomForestClassifier(min_sample_leaf=3) = 0.727895
+n_split = 4, RandomForestClassifier(min_sample_leaf=3) = 0.728421
+n_split = 5, RandomForestClassifier(min_sample_leaf=3) = 0.737895
+
+n_split = 1, RandomForestClassifier(min_sample_leaf=4) = 0.731053
+n_split = 2, RandomForestClassifier(min_sample_leaf=4) = 0.725789
+n_split = 3, RandomForestClassifier(min_sample_leaf=4) = 0.728421
+n_split = 4, RandomForestClassifier(min_sample_leaf=4) = 0.727895
+n_split = 5, RandomForestClassifier(min_sample_leaf=4) = 0.729474
+
+n_split = 1, RandomForestClassifier(min_sample_leaf=5) = 0.725263
+n_split = 2, RandomForestClassifier(min_sample_leaf=5) = 0.725263
+n_split = 3, RandomForestClassifier(min_sample_leaf=5) = 0.718421
+n_split = 4, RandomForestClassifier(min_sample_leaf=5) = 0.719474
+n_split = 5, RandomForestClassifier(min_sample_leaf=5) = 0.732632
+
+n_split = 1, RandomForestClassifier(min_sample_leaf=6) = 0.723684
+n_split = 2, RandomForestClassifier(min_sample_leaf=6) = 0.721053
+n_split = 3, RandomForestClassifier(min_sample_leaf=6) = 0.721579
+n_split = 4, RandomForestClassifier(min_sample_leaf=6) = 0.720526
+n_split = 5, RandomForestClassifier(min_sample_leaf=6) = 0.721579
+
+n_split = 1, RandomForestClassifier(min_sample_leaf=7) = 0.726316
+n_split = 2, RandomForestClassifier(min_sample_leaf=7) = 0.728947
+n_split = 3, RandomForestClassifier(min_sample_leaf=7) = 0.717895
+n_split = 4, RandomForestClassifier(min_sample_leaf=7) = 0.719474
+n_split = 5, RandomForestClassifier(min_sample_leaf=7) = 0.722105
+
+Conclusion, the less leafs increase accuracy.------------------------------------------------------------

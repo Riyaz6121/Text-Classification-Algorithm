@@ -1,0 +1,40 @@
+Everything else at default
+
+n_split = 1, RandomForestClassifier(n_estimator=10) = 0.718947
+n_split = 2, RandomForestClassifier(n_estimators=10) = 0.719474
+n_split = 3, RandomForestClassifier(n_estimators=10) = 0.720000
+n_split = 4, RandomForestClassifier(n_estimators=10) = 0.715789
+n_split = 5, RandomForestClassifier(n_estimators=10) = 0.722632
+
+n_split = 1, RandomForestClassifier(n_estimators=30) = 0.742105
+n_split = 2, RandomForestClassifier(n_estimators=30) = 0.735263
+n_split = 3, RandomForestClassifier(n_estimators=30) = 0.730526
+n_split = 4, RandomForestClassifier(n_estimators=30) = 0.727895
+n_split = 5, RandomForestClassifier(n_estimators=30) = 0.734211
+
+n_split = 1, RandomForestClassifier(n_estimators=50) = 0.748947
+n_split = 2, RandomForestClassifier(n_estimators=50) = 0.742105
+n_split = 3, RandomForestClassifier(n_estimators=50) = 0.734211
+n_split = 4, RandomForestClassifier(n_estimators=50) = 0.728947
+n_split = 5, RandomForestClassifier(n_estimators=50) = 0.741579
+
+n_split = 1, RandomForestClassifier(n_estimators=100) = 0.738421
+n_split = 2, RandomForestClassifier(n_estimators=100) = 0.735789
+n_split = 3, RandomForestClassifier(n_estimators=100) = 0.735789
+n_split = 4, RandomForestClassifier(n_estimators=100) = 0.737895
+n_split = 5, RandomForestClassifier(n_estimators=100) = 0.741053
+
+n_split = 1, RandomForestClassifier(n_estimators=200) = 0.733684
+n_split = 2, RandomForestClassifier(n_estimators=200) = 0.737368
+n_split = 3, RandomForestClassifier(n_estimators=200) = 0.734737
+n_split = 4, RandomForestClassifier(n_estimators=200) = 0.728947
+n_split = 5, RandomForestClassifier(n_estimators=200) = 0.736842
+
+n_split = 1, RandomForestClassifier(n_estimators=300) = 0.739474
+n_split = 2, RandomForestClassifier(n_estimators=300) = 0.737368
+n_split = 3, RandomForestClassifier(n_estimators=300) = 0.737368
+n_split = 4, RandomForestClassifier(n_estimators=300) = 0.733158
+n_split = 5, RandomForestClassifier(n_estimators=300) = 0.732105
+
+Conclusion default setting of n_estimator = 100, is moderately stable
+and moderately greater in accuracy in comparison to other values. 

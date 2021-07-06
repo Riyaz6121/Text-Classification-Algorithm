@@ -1,0 +1,41 @@
+Everything on default, n_estimator = 100, Bootstrap = True etc
+
+Finding the max_depth
+------------------------------------------------------------
+n_split = 1, RandomForestClassifier(max_depth=200) = 0.746842
+n_split = 2, RandomForestClassifier(max_depth=200) = 0.736842
+n_split = 3, RandomForestClassifier(max_depth=200) = 0.724737
+n_split = 4, RandomForestClassifier(max_depth=200) = 0.733684
+n_split = 5, RandomForestClassifier(max_depth=200) = 0.736842
+------------------------------------------------------------
+n_split = 1, RandomForestClassifier(max_depth=500) = 0.745789
+n_split = 2, RandomForestClassifier(max_depth=500) = 0.736842
+n_split = 3, RandomForestClassifier(max_depth=500) = 0.737895
+n_split = 4, RandomForestClassifier(max_depth=500) = 0.732632
+n_split = 5, RandomForestClassifier(max_depth=500) = 0.745263
+------------------------------------------------------------
+n_split = 1, RandomForestClassifier(max_depth=750) = 0.732632
+n_split = 2, RandomForestClassifier(max_depth=750) = 0.734737
+n_split = 3, RandomForestClassifier(max_depth=750) = 0.736316
+n_split = 4, RandomForestClassifier(max_depth=750) = 0.726316
+n_split = 5, RandomForestClassifier(max_depth=750) = 0.740000
+------------------------------------------------------------
+n_split = 1, RandomForestClassifier(max_depth=1200) = 0.741053
+n_split = 2, RandomForestClassifier(max_depth=1200) = 0.740526
+n_split = 3, RandomForestClassifier(max_depth=1200) = 0.733158
+n_split = 4, RandomForestClassifier(max_depth=1200) = 0.732105
+n_split = 5, RandomForestClassifier(max_depth=1200) = 0.736842
+------------------------------------------------------------
+n_split = 1, RandomForestClassifier(max_depth=2000) = 0.738421
+n_split = 2, RandomForestClassifier(max_depth=2000) = 0.743158
+n_split = 3, RandomForestClassifier(max_depth=2000) = 0.735789
+n_split = 4, RandomForestClassifier(max_depth=2000) = 0.728421
+n_split = 5, RandomForestClassifier(max_depth=2000) = 0.735263
+------------------------------------------------------------
+n_split = 1, RandomForestClassifier(max_depth=3000) = 0.740000
+n_split = 2, RandomForestClassifier(max_depth=3000) = 0.735789
+n_split = 3, RandomForestClassifier(max_depth=3000) = 0.736316
+n_split = 4, RandomForestClassifier(max_depth=3000) = 0.736316
+n_split = 5, RandomForestClassifier(max_depth=3000) = 0.733684
+
+Conclusion, Changing max_depth by itself won't make a major difference.
